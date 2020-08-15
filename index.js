@@ -7,7 +7,7 @@ const Logout = require('./auth/logout');
 var io = require('socket.io')(http);
 var CDB = new AppDB('database.sqlite3');
 
-var port = process.env.port;
+var port = process.env.PORT;
 
 // app.get('/', (req, res) => {
 //     res.send('Hello From Express');
