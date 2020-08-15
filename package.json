@@ -4,6 +4,7 @@
   "description": "chat app server",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "test"
   },
   "keywords": [
