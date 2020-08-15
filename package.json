@@ -1,0 +1,21 @@
+{
+  "name": "chat-server",
+  "version": "1.0.0",
+  "description": "chat app server",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "chat",
+    "server"
+  ],
+  "author": "Kamal Aminu (Kameen)",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.7.1",
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0",
+    "sqlite3": "^4.1.1"
+  }
+}
