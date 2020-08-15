@@ -15,7 +15,7 @@ var port = process.env.PORT || 3000;
 app.use('/assets', express.static(__dirname + '/public/assets'));
 
 io.on('connection', (socket) => {
-
+    console.log(`${socket.id} connected`);
     socket.on('user_login', (user) => {
         new Login(socket, io, user);
     });
